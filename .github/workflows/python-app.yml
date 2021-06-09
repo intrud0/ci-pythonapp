@@ -5,9 +5,11 @@ name: CloudSkills Python App
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      _ '*'
   pull_request:
-    branches: [ main ]
+    branches: 
+      _ '*'
 
 jobs:
   build:
